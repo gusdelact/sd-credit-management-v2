@@ -5,7 +5,7 @@ phases:
       commands:
          - echo comando de instalacion ...
          - javac -version
-         - gradle 
+         - gradle --status
   build:
        commands:
          - echo Ensamblando arrancando `date`
