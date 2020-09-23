@@ -10,6 +10,7 @@ phases:
        commands:
          - echo Ensamblando arrancando `date`
          - echo Compilando un codigo...
+         - gradle -s --no-daemon --console plain build
         
   post_build:
        commands:
