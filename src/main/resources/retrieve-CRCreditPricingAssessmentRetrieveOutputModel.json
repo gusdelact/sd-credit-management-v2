@@ -1,0 +1,29 @@
+{
+  "creditPricingAssessmentRetrieveActionResponse" : "creditPricingAssessmentRetrieveActionResponse",
+  "creditPricingAssessmentInstanceAnalysis" : {
+    "creditPricingAssessmentInstanceAnalysisReport" : {},
+    "creditPricingAssessmentInstanceAnalysisData" : "creditPricingAssessmentInstanceAnalysisData",
+    "creditPricingAssessmentInstanceAnalysisReportType" : "creditPricingAssessmentInstanceAnalysisReportType"
+  },
+  "creditPricingAssessmentInstanceRecord" : {
+    "proposedTransactionCreditPricingAssessment" : "proposedTransactionCreditPricingAssessment",
+    "sectorReference" : "714633",
+    "customerReference" : "794181",
+    "proposedTransactionRecord" : {
+      "proposedTransactionType" : "proposedTransactionType",
+      "proposedTransactionRecordDate" : "09-22-2018",
+      "proposedTransactionAmount" : "USD 250",
+      "proposedTransactionBookingEntity" : "proposedTransactionBookingEntity"
+    },
+    "proposedTransactionReference" : "743775",
+    "businessUnitReference" : "786312",
+    "productType" : "productType"
+  },
+  "creditPricingAssessmentRetrieveActionTaskReference" : "CPARATR768131",
+  "creditPricingAssessmentInstanceReportRecord" : {
+    "creditPricingAssessmentInstanceReportData" : "creditPricingAssessmentInstanceReportData",
+    "creditPricingAssessmentInstanceReportType" : "creditPricingAssessmentInstanceReportType",
+    "creditPricingAssessmentInstanceReport" : {}
+  },
+  "creditPricingAssessmentRetrieveActionTaskRecord" : {}
+}

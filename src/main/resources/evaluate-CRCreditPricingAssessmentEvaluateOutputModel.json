@@ -1,0 +1,9 @@
+{
+  "creditPricingAssessmentInstanceStatus" : "creditPricingAssessmentInstanceStatus",
+  "creditPricingAssessmentEvaluateActionRecord" : {},
+  "creditPricingAssessmentInstanceRecord" : {
+    "proposedTransactionCreditPricingAssessment" : "proposedTransactionCreditPricingAssessment"
+  },
+  "creditPricingAssessmentEvaluateActionReference" : "CPAEAR735312",
+  "creditPricingAssessmentInstanceReference" : "CPAIR776790"
+}

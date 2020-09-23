@@ -1,0 +1,18 @@
+{
+  "creditPricingAssessmentUpdateActionTaskRecord" : {},
+  "creditPricingAssessmentUpdateActionTaskReference" : "CPAUATR730844",
+  "updateResponseRecord" : {},
+  "creditPricingAssessmentInstanceRecord" : {
+    "sectorReference" : "788285",
+    "customerReference" : "726944",
+    "proposedTransactionRecord" : {
+      "proposedTransactionType" : "proposedTransactionType",
+      "proposedTransactionRecordDate" : "09-22-2018",
+      "proposedTransactionAmount" : "USD 250",
+      "proposedTransactionBookingEntity" : "proposedTransactionBookingEntity"
+    },
+    "proposedTransactionReference" : "798752",
+    "businessUnitReference" : "746311",
+    "productType" : "productType"
+  }
+}

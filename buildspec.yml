@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+      commands:
+         - echo comando de instalacion ...
+         - javac -version
+         - gradle 
+  build:
+       commands:
+         - echo Ensamblando arrancando `date`
+         - echo Compilando un codigo...
+        
+  post_build:
+       commands:
+         - echo Ensamblando completado `date`
+         - echo Imagen docker creada
