@@ -15,4 +15,5 @@ phases:
   post_build:
        commands:
          - echo Ensamblando completado `date`
+         - ls -R .
          - echo Imagen docker creada
