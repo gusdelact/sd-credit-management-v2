@@ -12,4 +12,4 @@ phases:
        - aws --version
        - kubectl version --short --client
        - aws eks --region us-east-1 update-kubeconfig --name eksworkshop-eksctl 
-       - kubectl version --short
+       - cat /root/.kube/config
