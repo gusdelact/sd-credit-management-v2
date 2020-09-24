@@ -11,8 +11,8 @@ phases:
        - helm version --short
        - aws --version
        - aws sts get-caller-identity
-       - aws sts assume-role --role-arn arn:aws:sts::456220669037:assumed-role/k8sadmin/i-093573a48d242f9b8 --role-session-name misesion
+       - aws sts assume-role --role-arn arn:aws:iam::456220669037:role/eksctl-eksworkshop-eksctl-nodegro-NodeInstanceRole-P6O7UB5KVGHV --role-session-name misesion
        - kubectl version --short --client
-       - aws eks --region us-east-1 update-kubeconfig --name eksworkshop-eksctl  --role-arn arn:aws:sts::456220669037:assumed-role/k8sadmin/i-093573a48d242f9b8
+       - aws eks --region us-east-1 update-kubeconfig --name eksworkshop-eksctl  --role-arn arn:aws:iam::456220669037:role/eksctl-eksworkshop-eksctl-nodegro-NodeInstanceRole-P6O7UB5KVGHV
        - cat /root/.kube/config
        - kubectl get pods --kubeconfig /root/.kube/config
