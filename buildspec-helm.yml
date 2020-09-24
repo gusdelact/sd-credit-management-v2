@@ -17,5 +17,9 @@ phases:
        - kubectl get pods --kubeconfig /root/.kube/config
   build:
     commands:
-       - helm install sd-credit-management $CODEBUILD_SRC_DIR/charts/service-domain-credit-management
+       - helm install sd-credit-management $CODEBUILD_SRC_DIR/charts/service-domain-credit-management -n bian --create-namespace 
+       
+  post_build:
+    commands:
        - helm list
+       - kubectl get pods -n bian
