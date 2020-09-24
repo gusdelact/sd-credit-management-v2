@@ -11,4 +11,4 @@ phases:
        - helm version --short
        - aws --version
        - kubectl version --short --client
-       - aws eks --region us-east-1 update-kubeconfig --name eksworkshop-eksctl
+       - aws eks --region us-east-1 update-kubeconfig --name eksworkshop-eksctl --role-arn arn:aws:sts::456220669037:assumed-role/k8sadmin/i-093573a48d242f9b8
