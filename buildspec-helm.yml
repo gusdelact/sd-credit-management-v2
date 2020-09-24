@@ -15,3 +15,7 @@ phases:
        - aws eks --region us-east-1 update-kubeconfig --name eksworkshop-eksctl 
        - cat /root/.kube/config
        - kubectl get pods --kubeconfig /root/.kube/config
+  build:
+    commands:
+       - helm install sd-credit-management charts/service-domain-credit
+        
