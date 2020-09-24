@@ -10,6 +10,7 @@ phases:
        - curl -sSL https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
        - helm version --short
        - aws --version
+       - aws sts get-caller-identity
        - kubectl version --short --client
        - aws eks --region us-east-1 update-kubeconfig --name eksworkshop-eksctl 
        - cat /root/.kube/config
